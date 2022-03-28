@@ -1,0 +1,15 @@
+14:54:32 **** Incremental Build of configuration Debug for project SearchKey ****
+make all 
+Building file: ../src/SearchKey.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SearchKey.d" -MT"src/SearchKey.o" -o "src/SearchKey.o" "../src/SearchKey.c"
+Finished building: ../src/SearchKey.c
+ 
+Building target: SearchKey
+Invoking: GCC C Linker
+gcc  -o "SearchKey"  ./src/SearchKey.o   
+Finished building target: SearchKey
+ 
+
+14:54:32 Build Finished. 0 errors, 0 warnings. (took 212ms)
+

@@ -1,0 +1,15 @@
+15:21:30 **** Incremental Build of configuration Debug for project WritingProject ****
+make all 
+Building file: ../src/WritingProject.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/WritingProject.d" -MT"src/WritingProject.o" -o "src/WritingProject.o" "../src/WritingProject.c"
+Finished building: ../src/WritingProject.c
+ 
+Building target: WritingProject
+Invoking: GCC C Linker
+gcc  -o "WritingProject"  ./src/WritingProject.o   
+Finished building target: WritingProject
+ 
+
+15:21:30 Build Finished. 0 errors, 0 warnings. (took 213ms)
+

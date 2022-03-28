@@ -1,0 +1,6 @@
+Jimmy,salesman
+Olay,Recruiter
+Roy,ManagerJacky,Fighter
+Smith,Allrounder
+Jacky,Fighter
+Smith,Allrounder

@@ -1,0 +1,6 @@
+00:17:06 **** Incremental Build of configuration Debug for project SumOfOddNo ****
+make all 
+make: Nothing to be done for 'all'.
+
+00:17:06 Build Finished. 0 errors, 0 warnings. (took 165ms)
+

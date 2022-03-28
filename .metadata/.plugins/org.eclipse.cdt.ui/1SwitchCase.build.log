@@ -1,0 +1,15 @@
+21:15:17 **** Incremental Build of configuration Debug for project 1SwitchCase ****
+make all 
+Building file: ../src/1SwitchCase.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/1SwitchCase.d" -MT"src/1SwitchCase.o" -o "src/1SwitchCase.o" "../src/1SwitchCase.c"
+Finished building: ../src/1SwitchCase.c
+ 
+Building target: 1SwitchCase
+Invoking: GCC C Linker
+gcc  -o "1SwitchCase"  ./src/1SwitchCase.o   
+Finished building target: 1SwitchCase
+ 
+
+21:15:17 Build Finished. 0 errors, 0 warnings. (took 212ms)
+

@@ -1,0 +1,40 @@
+/*
+ ============================================================================
+ Name        : 1SwitchCase.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int num;
+	printf("Enter a number: ");
+	scanf("%d",num);
+	printf("1 for Sunday\n2 for Monday\n3 for Tuesday\n4 for Wednesday\n5 for Thursday\n6 for Friday\n7 for Saturday");
+	switch(num)
+	case 1:
+		pritnf("Sunday");
+		break;
+	case 2:
+		printf("Monday");
+		break;
+	case 3:
+		printf("Tuesday");
+	case 4:
+		printf("Wednesday");
+	case 5:
+		printf("Thursday");
+	case 6:
+		printf("Friday");
+	case 7:
+		printf("Saturday");
+	default:
+		printf("Invalid input");
+
+	return EXIT_SUCCESS;
+}

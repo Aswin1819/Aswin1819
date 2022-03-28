@@ -1,0 +1,41 @@
+/*
+ ============================================================================
+ Name        : ArraySwapping.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int n,a[10],b[10],temp,i,j,c;
+	printf("Enter the limit of array:");
+	scanf("%d",&n);
+	printf("Enter the values of Array 1 :");
+	for(i=0;i<n;i++){
+		scanf("%d",&a[i]);
+	}
+	printf("Enter the values of Array 2 :");
+	for(j=0;j<n;j++){
+		scanf("%d",&b[j]);
+	}
+	for(i=0;i<n;i++){
+		for(j=0;j<n;j++){
+			temp=a[i];
+			a[i]=b[j];
+			b[j]=temp;
+		}
+		a[i]=c[i];
+	}
+	printf("%d ",c[i]);
+
+
+
+//	printf("Array 1 : %d",a[i]);//
+//	printf("Array 2 : %d",b[j]);//
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,30 @@
+17:28:59 **** Incremental Build of configuration Debug for project StructSample ****
+make all 
+Building file: ../src/StructSample.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StructSample.d" -MT"src/StructSample.o" -o "src/StructSample.o" "../src/StructSample.c"
+../src/StructSample.c: In function ‘main’:
+../src/StructSample.c:25:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
+   25 |  strcpy(student1.major,"Fashion");
+      |  ^~~~~~
+../src/StructSample.c:25:2: warning: incompatible implicit declaration of built-in function ‘strcpy’
+../src/StructSample.c:13:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+   12 | #include <stdlib.h>
+  +++ |+#include <string.h>
+   13 | struct Student {
+../src/StructSample.c:27:11: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘double *’ [-Wformat=]
+   27 |  printf("%f",&student1.gpa);
+      |          ~^  ~~~~~~~~~~~~~
+      |           |  |
+      |           |  double *
+      |           double
+Finished building: ../src/StructSample.c
+ 
+Building target: StructSample
+Invoking: GCC C Linker
+gcc  -o "StructSample"  ./src/StructSample.o   
+Finished building target: StructSample
+ 
+
+17:28:59 Build Finished. 0 errors, 3 warnings. (took 264ms)
+

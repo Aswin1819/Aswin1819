@@ -1,0 +1,15 @@
+18:16:44 **** Incremental Build of configuration Debug for project SampleCPP ****
+make all 
+Building file: ../src/SampleCPP.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SampleCPP.d" -MT"src/SampleCPP.o" -o "src/SampleCPP.o" "../src/SampleCPP.cpp"
+Finished building: ../src/SampleCPP.cpp
+ 
+Building target: SampleCPP
+Invoking: GCC C++ Linker
+g++  -o "SampleCPP"  ./src/SampleCPP.o   
+Finished building target: SampleCPP
+ 
+
+18:16:44 Build Finished. 0 errors, 0 warnings. (took 464ms)
+

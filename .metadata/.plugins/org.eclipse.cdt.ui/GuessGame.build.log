@@ -1,0 +1,6 @@
+19:56:05 **** Incremental Build of configuration Debug for project GuessGame ****
+make all 
+make: Nothing to be done for 'all'.
+
+19:56:05 Build Finished. 0 errors, 0 warnings. (took 162ms)
+

@@ -1,0 +1,15 @@
+17:25:36 **** Incremental Build of configuration Debug for project MatrixMultiplication ****
+make all 
+Building file: ../src/MatrixMultiplication.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MatrixMultiplication.d" -MT"src/MatrixMultiplication.o" -o "src/MatrixMultiplication.o" "../src/MatrixMultiplication.c"
+Finished building: ../src/MatrixMultiplication.c
+ 
+Building target: MatrixMultiplication
+Invoking: GCC C Linker
+gcc  -o "MatrixMultiplication"  ./src/MatrixMultiplication.o   
+Finished building target: MatrixMultiplication
+ 
+
+17:25:37 Build Finished. 0 errors, 0 warnings. (took 214ms)
+

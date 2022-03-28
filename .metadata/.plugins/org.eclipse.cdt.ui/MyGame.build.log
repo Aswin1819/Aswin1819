@@ -1,0 +1,6 @@
+15:41:42 **** Incremental Build of configuration Debug for project MyGame ****
+make all 
+make: Nothing to be done for 'all'.
+
+15:41:42 Build Finished. 0 errors, 0 warnings. (took 162ms)
+

@@ -1,0 +1,15 @@
+15:20:36 **** Incremental Build of configuration Debug for project ArraySorting ****
+make all 
+Building file: ../src/ArraySorting.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArraySorting.d" -MT"src/ArraySorting.o" -o "src/ArraySorting.o" "../src/ArraySorting.c"
+Finished building: ../src/ArraySorting.c
+ 
+Building target: ArraySorting
+Invoking: GCC C Linker
+gcc  -o "ArraySorting"  ./src/ArraySorting.o   
+Finished building target: ArraySorting
+ 
+
+15:20:36 Build Finished. 0 errors, 0 warnings. (took 213ms)
+
