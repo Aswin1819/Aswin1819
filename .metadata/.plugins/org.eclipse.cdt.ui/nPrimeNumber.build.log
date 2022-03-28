@@ -1,12 +1,8 @@
-23:43:29 **** Build of configuration Debug for project nPrimeNumber ****
+12:36:18 **** Build of configuration Debug for project nPrimeNumber ****
 make all 
 Building file: ../src/nPrimeNumber.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/nPrimeNumber.d" -MT"src/nPrimeNumber.o" -o "src/nPrimeNumber.o" "../src/nPrimeNumber.c"
-../src/nPrimeNumber.c: In function ‘main’:
-../src/nPrimeNumber.c:15:12: warning: unused variable ‘k’ [-Wunused-variable]
-   15 |  int i,n,j,k;
-      |            ^
 Finished building: ../src/nPrimeNumber.c
  
 Building target: nPrimeNumber
@@ -15,5 +11,5 @@ gcc  -o "nPrimeNumber"  ./src/nPrimeNumber.o
 Finished building target: nPrimeNumber
  
 
-23:43:30 Build Finished. 0 errors, 1 warnings. (took 291ms)
+12:36:18 Build Finished. 0 errors, 0 warnings. (took 216ms)
 

@@ -19,7 +19,7 @@ int main(void) {
 	scanf("%d",&num);
 
 	switch(num){
-	case 1:
+	    case 1:
 			printf("Sunday");
 			break;
 		case 2:

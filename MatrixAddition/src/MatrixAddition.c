@@ -32,10 +32,10 @@ int main(void) {
 			sum[i][j]=a[i][j]+b[i][j];
 		}
 	}
-	printf("Answer is :\n ");
+	printf("Sum of Matrix :\n");
 	for(i=0;i<r;i++){
 		for(j=0;j<c;j++){
-			printf("%d ",sum[i][j]);
+			printf(" %d ",sum[i][j]);
 		}
 		printf("\n");
 	}

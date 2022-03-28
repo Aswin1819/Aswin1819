@@ -15,17 +15,17 @@ int main(void) {
 	float totalmark;
 	printf("Enter your total mark :");
 	scanf("%f",&totalmark);
-	if(totalmark>90&&totalmark<100){
-		printf("Grade : A");
-	}else if(totalmark>80&&totalmark<89){
+	if(totalmark>=90&&totalmark<=100){
+		printf("The program");
+	}else if(totalmark>=80&&totalmark<90){
 		printf("Grade : B");
-	}else if(totalmark>70&&totalmark<79){
+	}else if(totalmark>=70&&totalmark<80){
 		printf("Grade : C");
-	}else if(totalmark>60&&totalmark<69){
+	}else if(totalmark>=60&&totalmark<70){
 		printf("Grade : D");
-	}else if(totalmark>50&&totalmark<59){
+	}else if(totalmark>=50&&totalmark<60){
 		printf("Grade : E");
-	}else if(totalmark<50){
+	}else if(totalmark<50&&totalmark>=0){
 		printf("Failed");
 	}else{
 		printf("Invalid mark input");

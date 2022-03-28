@@ -1,6 +1,15 @@
-22:37:28 **** Incremental Build of configuration Debug for project FullPyramidOfStar ****
+21:51:19 **** Build of configuration Debug for project FullPyramidOfStar ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/FullPyramidOfStar.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FullPyramidOfStar.d" -MT"src/FullPyramidOfStar.o" -o "src/FullPyramidOfStar.o" "../src/FullPyramidOfStar.c"
+Finished building: ../src/FullPyramidOfStar.c
+ 
+Building target: FullPyramidOfStar
+Invoking: GCC C Linker
+gcc  -o "FullPyramidOfStar"  ./src/FullPyramidOfStar.o   
+Finished building target: FullPyramidOfStar
+ 
 
-22:37:28 Build Finished. 0 errors, 0 warnings. (took 163ms)
+21:51:19 Build Finished. 0 errors, 0 warnings. (took 224ms)
 

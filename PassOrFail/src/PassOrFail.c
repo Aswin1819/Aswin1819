@@ -17,8 +17,11 @@ int main(void) {
 	scanf("%f",&mark);
 	if(mark<50){
 		printf("Failed");
-	}else{
+	}else if(mark>50&&mark<=100){
+
 		printf("Passed");
+	}else {
+		printf("Invalid ENtry");
 	}
 	return EXIT_SUCCESS;
 }

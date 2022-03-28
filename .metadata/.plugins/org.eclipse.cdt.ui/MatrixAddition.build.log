@@ -1,15 +1,6 @@
-17:31:49 **** Incremental Build of configuration Debug for project MatrixAddition ****
+11:35:17 **** Incremental Build of configuration Debug for project MatrixAddition ****
 make all 
-Building file: ../src/MatrixAddition.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MatrixAddition.d" -MT"src/MatrixAddition.o" -o "src/MatrixAddition.o" "../src/MatrixAddition.c"
-Finished building: ../src/MatrixAddition.c
- 
-Building target: MatrixAddition
-Invoking: GCC C Linker
-gcc  -o "MatrixAddition"  ./src/MatrixAddition.o   
-Finished building target: MatrixAddition
- 
+make: Nothing to be done for 'all'.
 
-17:31:49 Build Finished. 0 errors, 0 warnings. (took 214ms)
+11:35:17 Build Finished. 0 errors, 0 warnings. (took 162ms)
 

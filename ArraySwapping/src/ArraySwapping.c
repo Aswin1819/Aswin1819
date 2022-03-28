@@ -13,7 +13,7 @@
 
 int main(void) {
 	int n,a[10],b[10],temp,i;
-	printf("Enter the limit of array:");
+	printf("Enter the size of arrays:");
 	scanf("%d",&n);
 	printf("Enter the values of Array 1 :");
 	for(i=0;i<n;i++){

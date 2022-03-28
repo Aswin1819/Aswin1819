@@ -1,56 +1,39 @@
-09:07:35 **** Build of configuration Debug for project SpaceHalfPyramid ****
+22:10:03 **** Build of configuration Debug for project PyramidHOneZero ****
 make all 
-Building file: ../src/SpaceHalfPyramid.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SpaceHalfPyramid.d" -MT"src/SpaceHalfPyramid.o" -o "src/SpaceHalfPyramid.o" "../src/SpaceHalfPyramid.c"
-Finished building: ../src/SpaceHalfPyramid.c
- 
-Building target: SpaceHalfPyramid
-Invoking: GCC C Linker
-gcc  -o "SpaceHalfPyramid"  ./src/SpaceHalfPyramid.o   
-Finished building target: SpaceHalfPyramid
- 
-09:07:45 **** Incremental Build of configuration Debug for project SpaceHalfPyramid ****
+make: Nothing to be done for 'all'.
+22:10:11 **** Incremental Build of configuration Debug for project PrimeDelet ****
 make all 
-Building file: ../src/SpaceHalfPyramid.c
+Building file: ../src/PrimeDelet.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SpaceHalfPyramid.d" -MT"src/SpaceHalfPyramid.o" -o "src/SpaceHalfPyramid.o" "../src/SpaceHalfPyramid.c"
-../src/SpaceHalfPyramid.c: In function ‘main’:
-../src/SpaceHalfPyramid.c:24:3: warning: implicit declaration of function ‘pritnf’; did you mean ‘printf’? [-Wimplicit-function-declaration]
-   24 |   pritnf("\n");
-      |   ^~~~~~
-      |   printf
-Finished building: ../src/SpaceHalfPyramid.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PrimeDelet.d" -MT"src/PrimeDelet.o" -o "src/PrimeDelet.o" "../src/PrimeDelet.c"
+Finished building: ../src/PrimeDelet.c
  
-Building target: SpaceHalfPyramid
+Building target: PrimeDelet
 Invoking: GCC C Linker
-gcc  -o "SpaceHalfPyramid"  ./src/SpaceHalfPyramid.o   
-/usr/bin/ld: ./src/SpaceHalfPyramid.o: in function `main':
-/home/aswin/eclipse-workspace/SpaceHalfPyramid/Debug/../src/SpaceHalfPyramid.c:24: undefined reference to `pritnf'
-collect2: error: ld returned 1 exit status
-make: *** [makefile:45: SpaceHalfPyramid] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-09:07:58 **** Incremental Build of configuration Debug for project SpaceHalfPyramid ****
+gcc  -o "PrimeDelet"  ./src/PrimeDelet.o   
+Finished building target: PrimeDelet
+ 
+22:12:09 **** Incremental Build of configuration Debug for project PrimeDelet ****
 make all 
-Building file: ../src/SpaceHalfPyramid.c
+Building file: ../src/PrimeDelet.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SpaceHalfPyramid.d" -MT"src/SpaceHalfPyramid.o" -o "src/SpaceHalfPyramid.o" "../src/SpaceHalfPyramid.c"
-Finished building: ../src/SpaceHalfPyramid.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PrimeDelet.d" -MT"src/PrimeDelet.o" -o "src/PrimeDelet.o" "../src/PrimeDelet.c"
+Finished building: ../src/PrimeDelet.c
  
-Building target: SpaceHalfPyramid
+Building target: PrimeDelet
 Invoking: GCC C Linker
-gcc  -o "SpaceHalfPyramid"  ./src/SpaceHalfPyramid.o   
-Finished building target: SpaceHalfPyramid
+gcc  -o "PrimeDelet"  ./src/PrimeDelet.o   
+Finished building target: PrimeDelet
  
-09:08:49 **** Incremental Build of configuration Debug for project SpaceHalfPyramid ****
+22:21:53 **** Incremental Build of configuration Debug for project PrimeDelet ****
 make all 
-Building file: ../src/SpaceHalfPyramid.c
+Building file: ../src/PrimeDelet.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SpaceHalfPyramid.d" -MT"src/SpaceHalfPyramid.o" -o "src/SpaceHalfPyramid.o" "../src/SpaceHalfPyramid.c"
-Finished building: ../src/SpaceHalfPyramid.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PrimeDelet.d" -MT"src/PrimeDelet.o" -o "src/PrimeDelet.o" "../src/PrimeDelet.c"
+Finished building: ../src/PrimeDelet.c
  
-Building target: SpaceHalfPyramid
+Building target: PrimeDelet
 Invoking: GCC C Linker
-gcc  -o "SpaceHalfPyramid"  ./src/SpaceHalfPyramid.o   
-Finished building target: SpaceHalfPyramid
+gcc  -o "PrimeDelet"  ./src/PrimeDelet.o   
+Finished building target: PrimeDelet
  

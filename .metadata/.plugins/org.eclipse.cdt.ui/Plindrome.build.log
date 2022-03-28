@@ -1,6 +1,6 @@
-16:59:03 **** Incremental Build of configuration Debug for project Plindrome ****
+20:12:46 **** Incremental Build of configuration Debug for project Plindrome ****
 make all 
 make: Nothing to be done for 'all'.
 
-16:59:03 Build Finished. 0 errors, 0 warnings. (took 163ms)
+20:12:46 Build Finished. 0 errors, 0 warnings. (took 166ms)
 

@@ -13,9 +13,9 @@
 
 int main(void) {
 	int n,a[10],i,j,temp;
-	printf("Enter the limit of array:");
+	printf("Enter the size of an array:");
 	scanf("%d",&n);
-	printf("Enter the elements of array: ");
+	printf("Enter the values of array: ");
 	for(i=0;i<n;i++){
 		scanf("%d",&a[i]);
 	}

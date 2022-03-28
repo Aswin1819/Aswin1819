@@ -1,15 +1,6 @@
-23:19:25 **** Build of configuration Debug for project NumberPattern ****
+17:39:43 **** Build of configuration Debug for project NumberPattern ****
 make all 
-Building file: ../src/NumberPattern.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberPattern.d" -MT"src/NumberPattern.o" -o "src/NumberPattern.o" "../src/NumberPattern.c"
-Finished building: ../src/NumberPattern.c
- 
-Building target: NumberPattern
-Invoking: GCC C Linker
-gcc  -o "NumberPattern"  ./src/NumberPattern.o   
-Finished building target: NumberPattern
- 
+make: Nothing to be done for 'all'.
 
-23:19:25 Build Finished. 0 errors, 0 warnings. (took 214ms)
+17:39:43 Build Finished. 0 errors, 0 warnings. (took 167ms)
 
