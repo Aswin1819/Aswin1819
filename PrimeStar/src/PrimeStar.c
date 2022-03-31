@@ -21,6 +21,7 @@ int main(void) {
 	}
 
 	for(i=0;i<n;i++){
+		flag=0;
 		if(a[i]==1||a[i]==0){
 			flag=1;
 		}else{
@@ -33,16 +34,18 @@ int main(void) {
 			}
 
 		}
+		if(flag==0){
+
+		printf("%d ",a[i]);
+
+
+
+			}
+
 	}
 
 
-	if(flag==0){
-		for(i=0;i<n;i++){
-				printf("%d ",a[i]);
 
-		}
-
-	}
 
 	return EXIT_SUCCESS;
 }

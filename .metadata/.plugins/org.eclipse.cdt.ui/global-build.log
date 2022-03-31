@@ -1,39 +1,151 @@
-22:10:03 **** Build of configuration Debug for project PyramidHOneZero ****
+12:05:22 **** Incremental Build of configuration Debug for project PatternArrEveSimple ****
+make all 
+Building file: ../src/PatternArrEveSimple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PatternArrEveSimple.d" -MT"src/PatternArrEveSimple.o" -o "src/PatternArrEveSimple.o" "../src/PatternArrEveSimple.c"
+Finished building: ../src/PatternArrEveSimple.c
+ 
+Building target: PatternArrEveSimple
+Invoking: GCC C Linker
+gcc  -o "PatternArrEveSimple"  ./src/PatternArrEveSimple.o   
+Finished building target: PatternArrEveSimple
+ 
+12:27:30 **** Incremental Build of configuration Debug for project PatternArrEveSimple ****
+make all 
+Building file: ../src/PatternArrEveSimple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PatternArrEveSimple.d" -MT"src/PatternArrEveSimple.o" -o "src/PatternArrEveSimple.o" "../src/PatternArrEveSimple.c"
+../src/PatternArrEveSimple.c: In function ‘main’:
+../src/PatternArrEveSimple.c:16:23: warning: variable ‘flag’ set but not used [-Wunused-but-set-variable]
+   16 |  int count,n=1,a[100],flag,p;
+      |                       ^~~~
+Finished building: ../src/PatternArrEveSimple.c
+ 
+Building target: PatternArrEveSimple
+Invoking: GCC C Linker
+gcc  -o "PatternArrEveSimple"  ./src/PatternArrEveSimple.o   
+Finished building target: PatternArrEveSimple
+ 
+12:28:18 **** Incremental Build of configuration Debug for project PatternArrEveSimple ****
 make all 
 make: Nothing to be done for 'all'.
-22:10:11 **** Incremental Build of configuration Debug for project PrimeDelet ****
+12:28:23 **** Incremental Build of configuration Debug for project PatternArrEveSimple ****
 make all 
-Building file: ../src/PrimeDelet.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PrimeDelet.d" -MT"src/PrimeDelet.o" -o "src/PrimeDelet.o" "../src/PrimeDelet.c"
-Finished building: ../src/PrimeDelet.c
- 
-Building target: PrimeDelet
-Invoking: GCC C Linker
-gcc  -o "PrimeDelet"  ./src/PrimeDelet.o   
-Finished building target: PrimeDelet
- 
-22:12:09 **** Incremental Build of configuration Debug for project PrimeDelet ****
+make: Nothing to be done for 'all'.
+12:30:13 **** Incremental Build of configuration Debug for project PatternArrEveSimple ****
 make all 
-Building file: ../src/PrimeDelet.c
+Building file: ../src/PatternArrEveSimple.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PrimeDelet.d" -MT"src/PrimeDelet.o" -o "src/PrimeDelet.o" "../src/PrimeDelet.c"
-Finished building: ../src/PrimeDelet.c
- 
-Building target: PrimeDelet
-Invoking: GCC C Linker
-gcc  -o "PrimeDelet"  ./src/PrimeDelet.o   
-Finished building target: PrimeDelet
- 
-22:21:53 **** Incremental Build of configuration Debug for project PrimeDelet ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PatternArrEveSimple.d" -MT"src/PatternArrEveSimple.o" -o "src/PatternArrEveSimple.o" "../src/PatternArrEveSimple.c"
+../src/PatternArrEveSimple.c: In function ‘main’:
+../src/PatternArrEveSimple.c:25:5: error: subscripted value is neither array nor pointer nor vector
+   25 |    b[i]=a[i];
+      |     ^
+../src/PatternArrEveSimple.c:34:19: error: subscripted value is neither array nor pointer nor vector
+   34 |     printf("%d ",b[p]);
+      |                   ^
+../src/PatternArrEveSimple.c:43:18: error: subscripted value is neither array nor pointer nor vector
+   43 |    printf("%d ",b[p]);
+      |                  ^
+../src/PatternArrEveSimple.c:16:25: warning: variable ‘b’ set but not used [-Wunused-but-set-variable]
+   16 |  int count,n=1,a[100],p,b;
+      |                         ^
+make: *** [src/subdir.mk:20: src/PatternArrEveSimple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:31:00 **** Incremental Build of configuration Debug for project PatternArrEveSimple ****
 make all 
-Building file: ../src/PrimeDelet.c
+Building file: ../src/PatternArrEveSimple.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PrimeDelet.d" -MT"src/PrimeDelet.o" -o "src/PrimeDelet.o" "../src/PrimeDelet.c"
-Finished building: ../src/PrimeDelet.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PatternArrEveSimple.d" -MT"src/PatternArrEveSimple.o" -o "src/PatternArrEveSimple.o" "../src/PatternArrEveSimple.c"
+Finished building: ../src/PatternArrEveSimple.c
  
-Building target: PrimeDelet
+Building target: PatternArrEveSimple
 Invoking: GCC C Linker
-gcc  -o "PrimeDelet"  ./src/PrimeDelet.o   
-Finished building target: PrimeDelet
+gcc  -o "PatternArrEveSimple"  ./src/PatternArrEveSimple.o   
+Finished building target: PatternArrEveSimple
+ 
+12:31:04 **** Incremental Build of configuration Debug for project PatternArrEveSimple ****
+make all 
+make: Nothing to be done for 'all'.
+12:31:51 **** Incremental Build of configuration Debug for project PatternArrEveSimple ****
+make all 
+Building file: ../src/PatternArrEveSimple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PatternArrEveSimple.d" -MT"src/PatternArrEveSimple.o" -o "src/PatternArrEveSimple.o" "../src/PatternArrEveSimple.c"
+Finished building: ../src/PatternArrEveSimple.c
+ 
+Building target: PatternArrEveSimple
+Invoking: GCC C Linker
+gcc  -o "PatternArrEveSimple"  ./src/PatternArrEveSimple.o   
+Finished building target: PatternArrEveSimple
+ 
+12:33:31 **** Incremental Build of configuration Debug for project PatternArrEveSimple ****
+make all 
+Building file: ../src/PatternArrEveSimple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PatternArrEveSimple.d" -MT"src/PatternArrEveSimple.o" -o "src/PatternArrEveSimple.o" "../src/PatternArrEveSimple.c"
+Finished building: ../src/PatternArrEveSimple.c
+ 
+Building target: PatternArrEveSimple
+Invoking: GCC C Linker
+gcc  -o "PatternArrEveSimple"  ./src/PatternArrEveSimple.o   
+Finished building target: PatternArrEveSimple
+ 
+12:34:20 **** Incremental Build of configuration Debug for project PatternArrEveSimple ****
+make all 
+Building file: ../src/PatternArrEveSimple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PatternArrEveSimple.d" -MT"src/PatternArrEveSimple.o" -o "src/PatternArrEveSimple.o" "../src/PatternArrEveSimple.c"
+Finished building: ../src/PatternArrEveSimple.c
+ 
+Building target: PatternArrEveSimple
+Invoking: GCC C Linker
+gcc  -o "PatternArrEveSimple"  ./src/PatternArrEveSimple.o   
+Finished building target: PatternArrEveSimple
+ 
+12:34:40 **** Incremental Build of configuration Debug for project PatternArrEveSimple ****
+make all 
+Building file: ../src/PatternArrEveSimple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PatternArrEveSimple.d" -MT"src/PatternArrEveSimple.o" -o "src/PatternArrEveSimple.o" "../src/PatternArrEveSimple.c"
+Finished building: ../src/PatternArrEveSimple.c
+ 
+Building target: PatternArrEveSimple
+Invoking: GCC C Linker
+gcc  -o "PatternArrEveSimple"  ./src/PatternArrEveSimple.o   
+Finished building target: PatternArrEveSimple
+ 
+12:35:26 **** Incremental Build of configuration Debug for project PatternArrEveSimple ****
+make all 
+Building file: ../src/PatternArrEveSimple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PatternArrEveSimple.d" -MT"src/PatternArrEveSimple.o" -o "src/PatternArrEveSimple.o" "../src/PatternArrEveSimple.c"
+Finished building: ../src/PatternArrEveSimple.c
+ 
+Building target: PatternArrEveSimple
+Invoking: GCC C Linker
+gcc  -o "PatternArrEveSimple"  ./src/PatternArrEveSimple.o   
+Finished building target: PatternArrEveSimple
+ 
+12:36:16 **** Incremental Build of configuration Debug for project PatternArrEveSimple ****
+make all 
+Building file: ../src/PatternArrEveSimple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PatternArrEveSimple.d" -MT"src/PatternArrEveSimple.o" -o "src/PatternArrEveSimple.o" "../src/PatternArrEveSimple.c"
+../src/PatternArrEveSimple.c: In function ‘main’:
+../src/PatternArrEveSimple.c:16:23: warning: unused variable ‘flag’ [-Wunused-variable]
+   16 |  int count,n=1,a[100],flag,p;
+      |                       ^~~~
+../src/PatternArrEveSimple.c:16:12: warning: unused variable ‘n’ [-Wunused-variable]
+   16 |  int count,n=1,a[100],flag,p;
+      |            ^
+../src/PatternArrEveSimple.c:16:6: warning: unused variable ‘count’ [-Wunused-variable]
+   16 |  int count,n=1,a[100],flag,p;
+      |      ^~~~~
+Finished building: ../src/PatternArrEveSimple.c
+ 
+Building target: PatternArrEveSimple
+Invoking: GCC C Linker
+gcc  -o "PatternArrEveSimple"  ./src/PatternArrEveSimple.o   
+Finished building target: PatternArrEveSimple
  

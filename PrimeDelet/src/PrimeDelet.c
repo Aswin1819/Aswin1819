@@ -37,6 +37,8 @@ int main(void) {
 			}
 			i--;
 			n--;
+
+
 		}
 
 	}

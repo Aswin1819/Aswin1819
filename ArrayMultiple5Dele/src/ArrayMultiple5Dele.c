@@ -24,15 +24,18 @@ int main(void) {
 			for(j=i;j<n;j++){
 				a[j+1]=a[j+3];
 			}
-			if(i==n-1+1){
+			if(i==n-1){
 				n=n-1;
 
 			}else if(i==n-2){
 				n=n-2;
 			}else{
-				n=n-2;
+				n=n-3;
 			}
 		}
+
+	}
+	for(i=0;i<=n;i++){
 		printf("%d ",a[i]);
 	}
 	return EXIT_SUCCESS;
